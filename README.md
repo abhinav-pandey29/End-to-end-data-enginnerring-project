@@ -1,4 +1,4 @@
-# End-to-end-data-enginnerring-project
+# End-to-end-data-engineering-project
 
 The main goal of this project is to move data from source to destination though an ELT pipeline, using cutting edge data processing models. The trajectory starts from twitter → to kafka → to a data lake (gs) using Spark. A Beam transformation takes over, before loading the results to BigQuery. Key indicators are then displayed on a dashboard (Looker studio). The whole process is orchestrated by Airflow.
 
